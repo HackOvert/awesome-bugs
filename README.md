@@ -3,9 +3,6 @@ A collection of software bug types and articles showcasing the hunt for and expl
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-# Ontologies
-* [Common Weakness Enumeration](https://cwe.mitre.org/about/index.html) (CWE)
-
 # Bug Types
 * [Double Free](#double-free)
 * [Type Confusion](#type-confusion)
