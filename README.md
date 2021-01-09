@@ -5,6 +5,7 @@ A collection of software bug types and articles showcasing the hunt for and expl
 
 # Bug Types
 * [Double Free](#double-free)
+* [NULL Pointer Dereference](#null-pointer-dereference)
 * [Type Confusion](#type-confusion)
 * [Use After Free](#use-after-free)
 * [Write-What-Where](#write-what-where)
@@ -20,6 +21,17 @@ A collection of software bug types and articles showcasing the hunt for and expl
 | Jinwook Shin | Microsoft Security Response Center | [MS13-068: A difficult-to-exploit double free in Outlook](https://msrc-blog.microsoft.com/2013/09/10/ms13-068-a-difficult-to-exploit-double-free-in-outlook/) |
 | Arthur Gerkis | Exodus Intelligence | [Pwn2Own 2019: Microsoft Edge Renderer Exploitation (CVE-2019-0940)](https://blog.exodusintel.com/2019/05/19/pwn2own-2019-microsoft-edge-renderer-exploitation-cve-2019-9999-part-1/) |
 | Andrey Konovalov | Andrey Konovalov's Blog | [CVE-2016-2384: Exploiting a double-free in the USB-MIDI Linux kernel driver](https://xairy.github.io/blog/2016/cve-2016-2384) |
+
+
+## NULL Pointer Dereference
+[CWE-476](https://cwe.mitre.org/data/definitions/476.html): NULL Pointer Dereference
+
+> *"A NULL pointer dereference occurs when the application dereferences a pointer that it expects to be valid, but is NULL, typically causing a crash or exit."*
+
+| Author(s) | Source | Article |
+| --- | --- | --- |
+| Leeqwind | xiaodaozhi | [Win32k NULL-Pointer-Dereference Analysis by Matching the May Update](https://xiaodaozhi.com/exploit/156.html) |
+| Sam Brown | MWR Labs / F-Secure | [PDF] [Windows Kernel Exploitation 101: Exploiting CVE-2014-4113](https://labs.f-secure.com/assets/BlogFiles/mwri-lab-exploiting-cve-2014-4113.pdf) |
 
 
 ## Type Confusion
