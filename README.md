@@ -3,12 +3,26 @@ A collection of software bug types and articles showcasing the hunt for and expl
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+
 # Bug Types
+* [Command Injection](#command-injection)
 * [Double Free](#double-free)
 * [NULL Pointer Dereference](#null-pointer-dereference)
 * [Type Confusion](#type-confusion)
 * [Use After Free](#use-after-free)
 * [Write-What-Where](#write-what-where)
+
+
+## Command Injection
+[CWE-78](https://cwe.mitre.org/data/definitions/78.html): Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+
+> *"The software constructs all or part of an OS command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended OS command when it is sent to a downstream component."*
+
+| Author(s) | Source | Article |
+| --- | --- | --- |
+| Pedro Ribeiro, Radek Domanski | Zero Day Initiative / Flashback Team | [CVE-2018-8460: Exposing a double free in Internet Explorer for code execution](https://www.thezdi.com/blog/2020/4/6/exploiting-the-tp-link-archer-c7-at-pwn2own-tokyo) - ([YouTube version](https://www.youtube.com/watch?v=zjafMP7EgEA)) |
+| David Yesland | Rhino Security Labs | [Exploiting CVE-2018-1335: Command Injection in Apache Tika](https://rhinosecuritylabs.com/application-security/exploiting-cve-2018-1335-apache-tika/) |
+| Shaun Mirani | Independent Security Evaluators (ISE) | [Show Mi The Vulns: Exploiting Command Injection in Mi Router 3](https://blog.securityevaluators.com/show-mi-the-vulns-exploiting-command-injection-in-mi-router-3-55c6bcb48f09) |
 
 ## Double Free
 [CWE-415](https://cwe.mitre.org/data/definitions/415.html): Double Free
