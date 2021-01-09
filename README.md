@@ -12,7 +12,6 @@ A collection of software bug types and articles showcasing the hunt for and expl
 * [Write-What-Where](#write-what-where)
 
 
-: 
 ## Double Free
 [CWE-415](https://cwe.mitre.org/data/definitions/415.html): Double Free
 
@@ -54,3 +53,4 @@ A collection of software bug types and articles showcasing the hunt for and expl
 | --- | --- | --- |
 | Simon Zuckerbraun | Zero Day Initiative | [RCE Without Native Code: Exploitation of a Write-What-Where in Internet Explorer](https://www.thezdi.com/blog/2019/5/21/rce-without-native-code-exploitation-of-a-write-what-where-in-internet-explorer) |
 | Taha Karim | Confiant | [Internet Explorer CVE-2019–1367 Exploitation — part 2](https://blog.confiant.com/internet-explorer-cve-2019-1367-exploitation-part-2-8143242b5780) |
+| ZecOps Research Team | ZecOps | [Exploiting SMBGhost (CVE-2020-0796) for a Local Privilege Escalation: Writeup + POC](https://blog.zecops.com/vulnerabilities/exploiting-smbghost-cve-2020-0796-for-a-local-privilege-escalation-writeup-and-poc/) |
