@@ -13,6 +13,8 @@ A collection of software bug types and articles showcasing the hunt for and expl
 ## Type Confusion
 [CWE-843](https://cwe.mitre.org/data/definitions/843.html): Access of Resource Using Incompatible Type ('Type Confusion')
 
+> *"The program allocates or initializes a resource such as a pointer, object, or variable using one type, but it later accesses that resource using a type that is incompatible with the original type."*
+
 | Related Bug | Relationship | Description |
 | --- | --- | --- | 
 | [CWE-664](https://cwe.mitre.org/data/definitions/664.html) | Grandparent | Improper Control of a Resource Through its Lifetime |
@@ -36,6 +38,8 @@ A collection of software bug types and articles showcasing the hunt for and expl
 
 ## Write-What-Where
 [CWE-123](https://cwe.mitre.org/data/definitions/123.html): Write-what-where Condition
+
+> *"Any condition where the attacker has the ability to write an arbitrary value to an arbitrary location, often as the result of a buffer overflow."*
 
 | Related Bug | Relationship | Description |
 | --- | --- | --- | 
