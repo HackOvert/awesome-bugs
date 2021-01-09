@@ -9,6 +9,7 @@ A collection of software bug types and articles showcasing the hunt for and expl
 * [Double Free](#double-free)
 * [NULL Pointer Dereference](#null-pointer-dereference)
 * [Type Confusion](#type-confusion)
+* [Unexpected Sign Extension](#unexpected-sign-extension)
 * [Use After Free](#use-after-free)
 * [Write-What-Where](#write-what-where)
 
@@ -65,6 +66,16 @@ A collection of software bug types and articles showcasing the hunt for and expl
 | Nils Emmerich | ERNW | [Java Buffer Overflow with ByteBuffer (CVE-2020-2803) and Mutable MethodType (CVE-2020-2805) Sandbox Escapes](https://insinuator.net/2020/09/java-buffer-overflow-with-bytebuffer-cve-2020-2803-and-mutable-methodtype-cve-2020-2805-sandbox-escapes/) |
 | Max Van Amerongen | F-Secure | [Exploiting CVE-2019-17026 - A Firefox JIT Bug](https://labs.f-secure.com/blog/exploiting-cve-2019-17026-a-firefox-jit-bug/) |
 | Yuki Chen | Qihoo 360 Vulcan Team | [When GC Triggers Callback](https://paper.seebug.org/1032/#case-3-type-confusion-in-jit-engine) |
+
+
+## Unexpected Sign Extension
+[CWE-194](https://cwe.mitre.org/data/definitions/194.html): Unexpected Sign Extension
+
+> *"The software performs an operation on a number that causes it to be sign extended when it is transformed into a larger data type. When the original number is negative, this can produce unexpected values that lead to resultant weaknesses."*
+
+| Author(s) | Source | Article |
+| --- | --- | --- |
+| Kim Youngsung | LINE Engineering | [Buffer overflow in PJSIP, a VoIP open source library](https://engineering.linecorp.com/en/blog/buffer-overflow-in-pjsip-a-voip-open-source-library/) |
 
 
 ## Use After Free
