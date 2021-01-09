@@ -6,8 +6,8 @@ A collection of software bug types and articles showcasing the hunt for and expl
 # Bug Types
 * [Double Free](#double-free)
 * [Type Confusion](#type-confusion)
+* [Use After Free](#use-after-free)
 * [Write-What-Where](#write-what-where)
-
 
 ## Double Free
 [CWE-415](https://cwe.mitre.org/data/definitions/415.html): Double Free
@@ -39,6 +39,16 @@ A collection of software bug types and articles showcasing the hunt for and expl
 | Nils Emmerich | ERNW | [Java Buffer Overflow with ByteBuffer (CVE-2020-2803) and Mutable MethodType (CVE-2020-2805) Sandbox Escapes](https://insinuator.net/2020/09/java-buffer-overflow-with-bytebuffer-cve-2020-2803-and-mutable-methodtype-cve-2020-2805-sandbox-escapes/) |
 | Max Van Amerongen | F-Secure | [Exploiting CVE-2019-17026 - A Firefox JIT Bug](https://labs.f-secure.com/blog/exploiting-cve-2019-17026-a-firefox-jit-bug/) |
 | Yuki Chen | Qihoo 360 Vulcan Team | [When GC Triggers Callback](https://paper.seebug.org/1032/#case-3-type-confusion-in-jit-engine) |
+
+
+## Use After Free
+[CWE-416](https://cwe.mitre.org/data/definitions/416.html): Use After Free
+
+> *"Referencing memory after it has been freed can cause a program to crash, use unexpected values, or execute code."*
+
+| Author(s) | Source | Article |
+| --- | --- | --- |
+| Abdul-Aziz Hariri | Zero Day Initiative | [Use-After-Silence: Exploiting a Quietly Patched UAF in VMWare](https://www.thezdi.com/blog/2017/6/26/use-after-silence-exploiting-a-quietly-patched-uaf-in-vmware) |
 
 
 ## Write-What-Where
