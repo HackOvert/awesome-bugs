@@ -7,20 +7,29 @@ A collection of software bug types and articles showcasing the hunt for and expl
 * [Common Weakness Enumeration](https://cwe.mitre.org/about/index.html) (CWE)
 
 # Bug Types
+* [Double Free](#double-free)
 * [Type Confusion](#type-confusion)
 * [Write-What-Where](#write-what-where)
+
+
+: 
+## Double Free
+[CWE-415](https://cwe.mitre.org/data/definitions/415.html): Double Free
+
+> *"The product calls free() twice on the same memory address, potentially leading to modification of unexpected memory locations."*
+
+| Author(s) | Source | Article |
+| --- | --- | --- |
+| Simon Zuckerbraun | Zero Day Initiative | [CVE-2018-8460: Exposing a double free in Internet Explorer for code execution](https://www.thezdi.com/blog/2018/10/18/cve-2018-8460-exposing-a-double-free-in-internet-explorer-for-code-execution) |
+| Jinwook Shin | Microsoft Security Response Center | [MS13-068: A difficult-to-exploit double free in Outlook](https://msrc-blog.microsoft.com/2013/09/10/ms13-068-a-difficult-to-exploit-double-free-in-outlook/) |
+| Arthur Gerkis | Exodus Intelligence | [Pwn2Own 2019: Microsoft Edge Renderer Exploitation (CVE-2019-0940)](https://blog.exodusintel.com/2019/05/19/pwn2own-2019-microsoft-edge-renderer-exploitation-cve-2019-9999-part-1/) |
+| Andrey Konovalov | Andrey Konovalov's Blog | [CVE-2016-2384: Exploiting a double-free in the USB-MIDI Linux kernel driver](https://xairy.github.io/blog/2016/cve-2016-2384) |
+
 
 ## Type Confusion
 [CWE-843](https://cwe.mitre.org/data/definitions/843.html): Access of Resource Using Incompatible Type ('Type Confusion')
 
 > *"The program allocates or initializes a resource such as a pointer, object, or variable using one type, but it later accesses that resource using a type that is incompatible with the original type."*
-
-| Related Bug | Relationship | Description |
-| --- | --- | --- | 
-| [CWE-664](https://cwe.mitre.org/data/definitions/664.html) | Grandparent | Improper Control of a Resource Through its Lifetime |
-| [CWE-704](https://cwe.mitre.org/data/definitions/704.html) | Parent | Incorrect Type Conversion or Cast |
-| [CWE-588](https://cwe.mitre.org/data/definitions/588.html) | Sibling | Attempt to Access Child of a Non-structure Pointer |
-| [CWE-681](https://cwe.mitre.org/data/definitions/681.html) | Sibling | Incorrect Conversion between Numeric Types |
 
 | Author(s) | Source | Article |
 | --- | --- | --- |
@@ -41,12 +50,7 @@ A collection of software bug types and articles showcasing the hunt for and expl
 
 > *"Any condition where the attacker has the ability to write an arbitrary value to an arbitrary location, often as the result of a buffer overflow."*
 
-| Related Bug | Relationship | Description |
-| --- | --- | --- | 
-| [CWE-119](https://cwe.mitre.org/data/definitions/119.html) | Grandparent | Improper Restriction of Operations within the Bounds of a Memory Buffer |
-| [CWE-787](https://cwe.mitre.org/data/definitions/787.html) | Parent |Out-of-bounds Write |
-| [CWE-415](https://cwe.mitre.org/data/definitions/415.html) | Sibling | Double Free |
-
 | Author(s) | Source | Article |
 | --- | --- | --- |
 | Simon Zuckerbraun | Zero Day Initiative | [RCE Without Native Code: Exploitation of a Write-What-Where in Internet Explorer](https://www.thezdi.com/blog/2019/5/21/rce-without-native-code-exploitation-of-a-write-what-where-in-internet-explorer) |
+| Taha Karim | Confiant | [Internet Explorer CVE-2019–1367 Exploitation — part 2](https://blog.confiant.com/internet-explorer-cve-2019-1367-exploitation-part-2-8143242b5780) |
