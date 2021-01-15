@@ -11,6 +11,7 @@ A collection of software bug types and articles showcasing the hunt for and expl
 * [Type Confusion](#type-confusion)
 * [Unexpected Sign Extension](#unexpected-sign-extension)
 * [Use After Free](#use-after-free)
+* [Use of Externally-Controlled Format String](#use-of-externally-controlled-format-string)
 * [Write-What-Where](#write-what-where)
 
 
@@ -88,6 +89,16 @@ A collection of software bug types and articles showcasing the hunt for and expl
 | Author(s) | Source | Article |
 | --- | --- | --- |
 | Abdul-Aziz Hariri | Zero Day Initiative | [Use-After-Silence: Exploiting a Quietly Patched UAF in VMWare](https://www.thezdi.com/blog/2017/6/26/use-after-silence-exploiting-a-quietly-patched-uaf-in-vmware) |
+
+
+## Use of Externally-Controlled Format String
+[CWE-134](https://cwe.mitre.org/data/definitions/134.html): Use of Externally-Controlled Format String
+
+> *"The software uses a function that accepts a format string as an argument, but the format string originates from an external source."*
+
+| Author(s) | Source | Article |
+| --- | --- | --- |
+| Averagejoe | Gironsec | [Exploit in Skyrim](https://www.gironsec.com/blog/2013/05/exploit-in-skyrim/) |
 
 
 ## Write-What-Where
