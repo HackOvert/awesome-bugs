@@ -98,7 +98,7 @@ A collection of software bug types and articles showcasing the hunt for and expl
 
 | Author(s) | Source | Article |
 | --- | --- | --- |
-| Averagejoe | Gironsec | [Exploit in Skyrim](https://www.gironsec.com/blog/2013/05/exploit-in-skyrim/) |
+| Joe Giron | Gironsec | [Exploit in Skyrim](https://www.gironsec.com/blog/2013/05/exploit-in-skyrim/) |
 
 
 ## Write-What-Where
