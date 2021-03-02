@@ -89,6 +89,7 @@ A collection of software bug types and articles showcasing the hunt for and expl
 | Author(s) | Source | Article |
 | --- | --- | --- |
 | Abdul-Aziz Hariri | Zero Day Initiative | [Use-After-Silence: Exploiting a Quietly Patched UAF in VMWare](https://www.thezdi.com/blog/2017/6/26/use-after-silence-exploiting-a-quietly-patched-uaf-in-vmware) |
+| Man Yue Mo | GitHub Security Lab | [Exploiting a textbook use-after-free in Chrome](https://securitylab.github.com/research/CVE-2020-6449-exploit-chrome-uaf) |
 
 
 ## Use of Externally-Controlled Format String
